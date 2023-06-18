@@ -1,0 +1,157 @@
+body {
+    background-color: #f8f8f8;
+}
+
+.menu {
+    list-style-type: none;
+}
+
+.menu li a {
+    color: #00008B;
+    font-family: fantasy;
+    font-size: 30px;
+    font-style: bold;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    color: #1E90FF;
+}
+
+.menu li a:active {
+    color: #AFEEEE;
+}
+
+h1 {
+    color: #000080;
+    font-family: fantasy;
+    font-size: 25px;
+    font-style: normal;
+}
+
+h3 {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+
+.main {
+    background-image: url(img/back.jpg);
+    height: 400px;
+}
+
+.summary {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.description {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    list-style-image: url(img/logo.jpg);
+}
+
+.content p:first-letter {
+    font-size: 20px;
+    font-family: monospace;
+    color: #00008B;
+}
+
+.specifications {
+    color: #191970;
+    font-size: 16 px;
+    font-weight: 400;
+    line-height: 20 px;
+    text-align: left;
+    list-style-image: url(img/logo.jpg);
+}
+
+.other {
+    color: #2F4F4F;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 20 px;
+    text-align: left;
+    list-style-image: url(img/logo.jpg);
+}
+
+input,
+textarea {
+    color: black;
+    background-color: #AFEEEE;
+    font-size: 14px;
+    font-family: monospace;
+    border: 1px solid #00008B;
+}
+
+input[type="text"] {
+    width: 200px;
+    height: 20px;
+}
+
+input[placeholder="Email"]:focus {
+    background-color: aqua;
+    color: #0000CD;
+}
+
+input:focus,
+textarea:focus {
+    text-transform: lowercase;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    font-family: fantasy;
+}
+
+img {
+    outline: 4px solid #4682B4;
+}
+
+img:hover {
+    outline: none;
+}
+
+ol a {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-style: bold;
+    text-decoration: none;
+    color: #00008B;
+}
+
+.header img {
+    margin-left: 30px;
+}
+
+.footer {
+    text-align: center;
+}
+
+.oral-b-spec {
+    border: px solid #4682B4;
+    border-collapse: collapse;
+}
+
+.oral-b-spec td {
+    border: 4px solid #4682B4;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    color: #191970;
+    background-color: #E0FFFF;
+}
+
+.first td {
+    width: 150px;
+    height: 100px;
+    vertical-align: top;
+}
